@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Joke</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+
+<div>
+
+     <h1 class="text-2xl text-center mt-10 font-semibold">Post Joke</h1>
+
+      <p class="text-center mt-10 text-2xl text-white bg-gray-800 m-20 p-2 rounded" id="joke">hello</p>
+
+     <div class="flex flex-col mt-10 gap-5">
+        <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="generateJoke()">Generate Joke</button>
+        <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="postJoke()">Post</button>
+    </div>
+
+
+    <div class="flex flex-col mt-10 gap-5">
+        <textarea class="flex mx-auto  bg-gray-200 border border-2 border-black text-black border-0 py-2 px-8 focus:outline-none rounded text-sm" id="input"></textarea>
+        <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="writepost()">getinput</button>
+    </div>
+
+ </div>
+
+
+
+ 
+
+
+
+    
+</body>
+</html>
