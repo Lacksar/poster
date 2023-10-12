@@ -7,7 +7,7 @@ let data = await fetch("https://official-joke-api.appspot.com/random_joke");
 let parsedData= await data.json()
 // console.log(parsedData)
 document.getElementById("joke").innerText= parsedData.setup + "\n \n" + parsedData.punchline;
-a= parsedData.setup + "                                                 " + parsedData.punchline;
+a= parsedData.setup + "                                                                                      " + parsedData.punchline;
 
 }
 
