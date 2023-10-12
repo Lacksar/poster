@@ -21,7 +21,7 @@ document.getElementById("joke").innerText= a;
 async function postJoke(){
 
    
-    let data = await fetch(`https://graph.facebook.com/2254937581441660/feed?message=${a}&access_token=EAAMPpQjRZArEBOxDuRjVEVEeqB8UcIBzENur5WZBo3zZAT5sgqPnw6aBcmodph5jz7KqtyajcyOil9t2XZAUTUjedSegnVkNE029J7Yj88gfA6nktkoAonfr72T6yxSiu93uHi7kUdE7V3cbMeuTZCTQzSEKnWbQClndEk3X61AGCDCcfcUlJWwlvzCjrhdlquFsZAZA3RFeHKyzbkSwBnNFo5PWwZDZD`, {
+    let data = await fetch(`https://graph.facebook.com/2254937581441660/feed?message=${a}&access_token=EAAMPpQjRZArEBO0FlnLAHcPZCyuDVE5YQ5EZAxE6o6tlUqcbqxZANAZB7iFcaF922wRyhCTQoMUlaB9vbZChkHrdcUNTvpt3DNz19V6NUgZB3VdZAPkwdwtUQJfX1YVLaACiaPE9JZCT1inr0BkoxybOwCmiZBoiPezboaAZBQZC7uLnDymAly98EVvSIXQaYUCkJZBZCYTK8CjdOh5GCRlonHE73v5dqC4QZDZD`, {
      
     // Adding method type
     method: "POST"});
